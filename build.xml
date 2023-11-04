@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Module>
+	
+	<GlobalSolutionName>ThirdParty</GlobalSolutionName>
+	<GlobalNamespace>potato</GlobalNamespace>
+
+	<Library>
+		<Name>thirdparty_zlib</Name>
+		<SourceRoot>.</SourceRoot>
+		<ThirdParty>true</ThirdParty>
+		<ThirdPartySourceFile>adler32.c;compress.c;crc32.c;deflate.c;gzclose.c;gzlib.c;gzread.c;gzwrite.c;infback.c;inffast.c;inflate.c;inftrees.c;trees.c;uncompr.c;zutil.c</ThirdPartySourceFile>
+	</Library>
+
+</Module>
