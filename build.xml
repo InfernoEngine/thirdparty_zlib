@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<Module>
-	
-	<GlobalSolutionName>ThirdParty</GlobalSolutionName>
-	<GlobalNamespace>potato</GlobalNamespace>
-
-	<StaticLibrary>
-		<Name>thirdparty_zlib</Name>
-		<SourceRoot>.</SourceRoot>
-		<ExportedIncludeDirectory>.</ExportedIncludeDirectory>
-		<ThirdParty>true</ThirdParty>
-		<ThirdPartySourceFile>
-			adler32.c
-			compress.c
-			crc32.c
-			deflate.c
-			infback.c
-			inffast.c
-			inflate.c
-			inftrees.c
-			trees.c
-			uncompr.c
-			zutil.c
-		</ThirdPartySourceFile>
-	</StaticLibrary>
-
-</Module>
+<Build>
+	<Module name="ThirdPartyZlib" type="thirdparty">
+		<StaticLibrary>
+			<Name>thirdparty_zlib</Name>
+			<SourceRoot>.</SourceRoot>
+			<ExportedIncludeDirectory>.</ExportedIncludeDirectory>
+			<ThirdParty>true</ThirdParty>
+			<ThirdPartySourceFile>
+				adler32.c
+				compress.c
+				crc32.c
+				deflate.c
+				infback.c
+				inffast.c
+				inflate.c
+				inftrees.c
+				trees.c
+				uncompr.c
+				zutil.c
+			</ThirdPartySourceFile>
+		</StaticLibrary>
+	</Module>
+</Build>
